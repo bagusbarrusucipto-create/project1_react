@@ -1,6 +1,7 @@
 import './App.css';
 import Labelnama from './components/labelnama';
 import Labelalamat from './components/labelalamat';
+import Button1 from './components/button1';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Labelnama nama="Kintori" />
       <Labelnama nama="Silvi" />
       <Labelalamat alamat="KaliBata II" />
+      <Button1 />
     </div> 
   );
 }
